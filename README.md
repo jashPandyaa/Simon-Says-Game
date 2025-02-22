@@ -17,6 +17,9 @@ Created a very popular game, Simon says game using pure vanilla Javascript : DOM
 ## Key-features:
 
 -Built a fully logic build game using vanilla javascript , html and css.
+
 -A game which allows user to use their IQ power and also showcases how far they can go.
+
 -Simple neat and clean code no framework of any language is used.
+
 -Fun game when u wants to time-pass.
