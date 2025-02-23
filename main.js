@@ -28,7 +28,7 @@ document.addEventListener("click", function () {
 
 document.addEventListener("touchstart", function (event) {
     if (started == false) {
-        event.preventDefault(); // Prevent default touch behavior
+        event.preventDefault();
         console.log("Game is started (touch)");
         started = true;
 
