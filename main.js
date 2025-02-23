@@ -17,6 +17,25 @@ document.addEventListener("keypress",function(){
     }
 });
 
+document.addEventListener("click", function () {
+    if (started == false) {
+        console.log("Game is started");
+        started = true;
+
+        levelUp();
+    }
+});
+
+document.addEventListener("touchstart", function (event) {
+    if (started == false) {
+        event.preventDefault(); // Prevent default touch behavior
+        console.log("Game is started (touch)");
+        started = true;
+
+        levelUp();
+    }
+});
+
 function gameFlash(btn){
     btn.classList.add("flash");
     setTimeout(function(){
