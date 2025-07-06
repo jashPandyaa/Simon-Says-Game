@@ -1,4 +1,5 @@
 # Simon-Says-Game
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) 
 
 Created a very popular game, Simon says game using pure vanilla Javascript : DOM and DOM events , Css and Html.
 
